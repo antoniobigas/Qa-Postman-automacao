@@ -1,0 +1,100 @@
+APIs para teste
+
+https://gorest.co.in/
+http://dummy.restapiexample.com/
+https://docs.postman-echo.com/
+
+#		Documentação:
+Postman Echo: https://learning.postman.com/docs/developer/echo-api/ 
+go rest api: https://gorest.co.in/public/v2/users
+
+
+
+GO-REST API.postman_collection.json
+
+
+
+#		Metodos - POSTMAN
+1 - 	GET: Método para recuperar dados de uma API
+2 - 	POST: Envia novos dados para a API
+3 - 	PATCH/PUT: Atualiza dados existentes
+4 - 	DELETE: Remove dados existentes.
+
+
+#		Integraçaao CI
+Integração contínua (CI) é uma pratica que visa integrar o processo de build de código e testes automatizados.
+Reduz o trabalho manual e processo de integração
+Garante que a solução está funcionando após cada atualização.
+
+#	Integração CI com POSTMAN API
+Fornece integração com ferramentas de versionamento de codigo
+Integração realizada através da chave de API (API KEY)
+pode ser criada apenas uma API KEY
+
+
+#		Comandos  NEWMAN
+npm install -g newman
+npm install -g newman-reporter-html
+
+#comandos
+newman run {{caminho_colecao_json}}              rodar uma colecao em json
+newman run {{url_dacolecao_}} 			 rodar uma colecao via url
+newman run coleca_postman.kspm -e testEnv.json   execucta uma colecao com arquivo de variaveis.
+
+newman -h menu de ajuda
+newman --folder executa uma pasta especifica
+newman -e carrega variaveis de ambiente json
+newman -d especifica um arquivo de dados json ou csv
+newman -n informa o numero de interacoes
+newman --delay-request[numero_ms] especifica um delay de execucoes entre as requests
+newman --bail para execucao se o teste falhar
+newman --vrbose mostra os detalhes da execucao a cada request
+
+
+
+#		Projeto de automação HEALT CHECK
+
+-	Criar um projeto no POSTMAN para verificar a saúde e dos recursos da API rodando um conjunto de testes períodico a cada 5min de forma automática.
+
+-		Premissas
+
+	1 - Criar um WorkSpace Colaborativo.
+	2 - Deve ser executado no ambiente de desenvolvimento e no ambiente de testes.
+	3 - Executar todos os testes do plano de testes.
+	4 - Todos os dados de requisições que precisam de body devem ser parametrizados com valores de dados externos.
+	5 - Executar ao menos 5 interações.
+
+Dados API: https://hunter.io/
+Documentação API: https://hunter.io/api-documentation/v2
+94eb257d7a2f42e7b4f2c0b7749924edd8142e46
+		Passo a Passo
+	 1 - Ler documentação da API 
+	 2 - Criar WorkSpace
+	 3 - Convidar membros
+	 4 - Criar ambientes e variáveis 
+	 5 - Criar estrutura da coleção
+	 6 - Criar requisições
+	 7 - Parametrizar variáveis
+	 8 - Criar um arquivo de dados 
+	 9 - Parametrizar autenticação 
+	10 - Criar pre request scripts 
+	11 - Criar testes 
+	12 - Criar e executar com monitor (um monitor para cada ambiente)
+	13 - Exportar resultado das execuções
+	14 - Exportar coleção e ambiente
+	15 - Instalar caso não tenha : node, newman, html-reporter e html-extra
+	16 - Criar estrutura de pastas para newman
+	17 - Executar via newman coleção e ambiente exportados
+
+
+
+
+
+
+
+
+
+
+
+
+
