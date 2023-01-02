@@ -10,8 +10,7 @@ go rest api: https://gorest.co.in/public/v2/users
 
 
 
-GO-REST API.postman_collection.json
-
+https://jsonpathfinder.com/
 
 
 #		Metodos - POSTMAN

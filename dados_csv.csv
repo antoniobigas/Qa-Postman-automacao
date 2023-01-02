@@ -1,8 +1,7 @@
-email_read,first_name_lead,last_name_lead,position_lead,company_lead,industry_lead
-email_read_edit,first_name_lead_edit,last_name_lead_edit,position_lead_edit,company_lead_edit,industry_lead_edit
-antonio@email.com, Antonio, Neto, Owner, CASA, TI, antonioEditado@email.com, antonioEditado, netoEditado, ownerEditado, casaEditado, TiEditado
-antonio1@email.com, Antonio1, Neto1, Owner1, CASA1, TI1, antonioEditado1@email.com, antonioEditado1, netoEditado1, ownerEditado1, casaEditado1, TiEditado1
-antonio2@email.com, Antonio2, Neto2, Owner2, CASA2, TI2, antonioEditado2@email.com, antonioEditado2, netoEditado2, ownerEditado2, casaEditado2, TiEditado2
-antonio3@email.com, Antonio3, Neto3, Owner3, CASA3, TI3, antonioEditado3@email.com, antonioEditado3, netoEditado3, ownerEditado3, casaEditado3, TiEditado3
-antonio4@email.com, Antonio4, Neto4, Owner4, CASA4, TI4, antonioEditado4@email.com, antonioEditado4, netoEditado4, ownerEditado4, casaEditado4, TiEditado4
-antonio5@email.com, Antonio5, Neto5, Owner5, CASA5, TI5, antonioEditado5@email.com, antonioEditado5, netoEditado5, ownerEditado4, casaEditado5, TiEditado5
+email_read,first_name_lead,last_name_lead,position_lead,company_lead,industry_lead,email_read_edit,first_name_lead_edit,last_name_lead_edit,position_lead_edit,company_lead_edit,industry_lead_edit
+antonio@email.com, Antonio, Neto, Owner, CASA, TI, antonioEditado@email.com, antonioEditado, netoEditado, ownerEditado, casaEditado, TiEditado,
+antonio1@email.com, Antonio1, Neto1, Owner1, CASA1, TI1, antonioEditado1@email.com, antonioEditado1, netoEditado1, ownerEditado1, casaEditado1, TiEditado1,
+antonio2@email.com, Antonio2, Neto2, Owner2, CASA2, TI2, antonioEditado2@email.com, antonioEditado2, netoEditado2, ownerEditado2, casaEditado2, TiEditado2,
+antonio3@email.com, Antonio3, Neto3, Owner3, CASA3, TI3, antonioEditado3@email.com, antonioEditado3, netoEditado3, ownerEditado3, casaEditado3, TiEditado3,
+antonio4@email.com, Antonio4, Neto4, Owner4, CASA4, TI4, antonioEditado4@email.com, antonioEditado4, netoEditado4, ownerEditado4, casaEditado4, TiEditado4,
+antonio5@email.com, Antonio5, Neto5, Owner5, CASA5, TI5, antonioEditado5@email.com, antonioEditado5, netoEditado5, ownerEditado4, casaEditado5, TiEditado5,
